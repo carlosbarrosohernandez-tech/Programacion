@@ -10,5 +10,4 @@
         <maven.compiler.release>25</maven.compiler.release>
         <exec.mainClass>com.mycompany.mavenproject1.Mavenproject1</exec.mainClass>
     </properties>
-    <name>Tema2</name>
 </project>
