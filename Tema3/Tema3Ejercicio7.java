@@ -11,8 +11,8 @@ public class Tema3Ejercicio7 {
         public static void main(String[] args) {
             Scanner dia = new Scanner (System.in);
             int diasemana;
-            boolean laborable = false;
-            
+            boolean laborable = false; //Declaro variabñes y le pongo false al laborable porq si no lg da error
+            //pido el dia
             System.out.println("Introduce el dia que vas a trabajar: ");
             diasemana = dia.nextInt();
             
@@ -29,6 +29,7 @@ public class Tema3Ejercicio7 {
                      laborable=false;
                 
             }
+                // ESTO lo q hace es saber si es laborable o no segund si es true o false
             if (diasemana >= 1 || diasemana <= 7) {    
                 System.out.println("¿Ese dia trabajas?: " + laborable);
             }
