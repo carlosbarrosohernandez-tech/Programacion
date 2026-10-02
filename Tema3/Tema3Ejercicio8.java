@@ -53,6 +53,5 @@ public class Tema3Ejercicio8 {
             System.out.println("Monedas de 1 euro: " + m1);
         }
 
-        teclado.close();
     }
 }
