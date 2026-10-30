@@ -23,3 +23,8 @@
 hs_err_pid*
 replay_pid*
 /Tema2/nbproject/private/
+
+# NetBeans
+build/
+dist/
+nbproject/private/
